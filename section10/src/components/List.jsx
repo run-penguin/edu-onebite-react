@@ -39,9 +39,11 @@ const List = ({ todos, onUpdate, onDelete }) => {
     <div className="List">
       <h4>Todo List 🌱</h4>
 
-      <div>total: {totalCount}</div>
-      <div>done: {doneCount}</div>
-      <div>notDone: {notDoneCount}</div>
+      <div>
+        <div>total: {totalCount}</div>
+        <div>done: {doneCount}</div>
+        <div>notDone: {notDoneCount}</div>
+      </div>
 
       <input
         placeholder="검색어를 입력하세요"
